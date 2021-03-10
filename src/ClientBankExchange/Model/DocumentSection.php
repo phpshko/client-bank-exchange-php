@@ -74,6 +74,7 @@ class DocumentSection extends Component
             'ДополнУсловия',
             'НомерСчетаПоставщика',
             'ДатаОтсылкиДок',
+            'КодНазПлатежа',
         ];
     }
 
@@ -119,4 +120,4 @@ class DocumentSection extends Component
         $str .= 'КонецДокумента'."\n";
         return $str;
     }
-} 
+}
